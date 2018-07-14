@@ -1,0 +1,20 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="Bezier Curve">
+    <output-path>$PROJECT_DIR$/out/artifacts/Bezier_Curve</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="main" />
+        <option name="description" value="This is a simple Bezier Curve App" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Bezier Curve" />
+        <option name="vendor" value="Itay B" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="Bezier_Curve.jar">
+        <element id="module-output" name="Bezier Curve" />
+      </element>
+    </root>
+  </artifact>
+</component>
