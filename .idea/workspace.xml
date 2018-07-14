@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="50331510-f7e3-47a2-8636-2733780f911d" name="Default" comment="" />
+    <list default="true" id="50331510-f7e3-47a2-8636-2733780f911d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bezier Curve/Bezier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bezier Curve/Bezier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bezier Curve/Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bezier Curve/Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bezier Curve/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bezier Curve/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bezier Curve/appController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bezier Curve/appController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Bezier Curve/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Bezier Curve/main.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Bezier.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Bezier.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Bezier.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
+            <state relative-caret-position="17">
               <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -45,7 +52,7 @@
       <file leaf-file-name="appController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/appController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
+            <state relative-caret-position="289">
               <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -58,7 +65,7 @@
       <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
+            <state relative-caret-position="408">
               <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -81,7 +88,7 @@
           <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
-      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -114,6 +121,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -152,20 +162,15 @@
         <subPane>
           <expand>
             <path>
-              <item name="Bezier Curve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bezier Curve" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Bezier Curve" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Bezier Curve" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Bezier-Curve" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Bezier-Curve" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -265,15 +270,15 @@
       <workItem from="1529173745262" duration="129000" />
       <workItem from="1529248020152" duration="481000" />
       <workItem from="1530849980284" duration="229000" />
+      <workItem from="1531603241494" duration="110000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33268000" />
+    <option name="totallyTimeSpent" value="33378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1613" height="873" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -284,12 +289,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3292683" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3292683" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14212218" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14405145" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -404,11 +409,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9962">
           <caret line="586" selection-start-line="586" selection-end-line="586" />
-          <folding>
-            <element signature="e#24056#24057#0" expanded="true" />
-            <element signature="e#24085#24086#0" expanded="true" />
-            <element signature="e#25050#25051#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -491,11 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9962">
           <caret line="586" selection-start-line="586" selection-end-line="586" />
-          <folding>
-            <element signature="e#24056#24057#0" expanded="true" />
-            <element signature="e#24085#24086#0" expanded="true" />
-            <element signature="e#25050#25051#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -819,18 +814,8 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Rubik_s Cube 5th/src/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Rubik_s Cube 5th/src/rubiksCube.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1071" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Rubik_s Cube 5th/src/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/../Rubik_s Cube 5th/src/rubiksCube.java" />
     <entry file="file://$PROJECT_DIR$/src/Point.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -849,11 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9146">
           <caret line="586" selection-start-line="586" selection-end-line="586" />
-          <folding>
-            <element signature="e#24056#24057#0" expanded="true" />
-            <element signature="e#24085#24086#0" expanded="true" />
-            <element signature="e#25050#25051#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +854,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
+        <state relative-caret-position="408">
           <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -888,7 +868,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/appController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="289">
           <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -897,21 +877,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Bezier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
+        <state relative-caret-position="17">
           <caret line="89" column="37" selection-start-line="89" selection-start-column="37" selection-end-line="89" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -932,13 +900,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited />
+          <last-edited>Bezier Curve</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -951,7 +931,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -986,7 +966,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Bezier Curve</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
