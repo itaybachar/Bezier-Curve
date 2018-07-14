@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Bezier_Curve.jnlp">
+    <information>
+        <title>Bezier Curve</title>
+        <vendor>Itay B</vendor>
+        <description>This is a simple Bezier Curve App</description>
+        <offline-allowed/>
+    </information>
+    <update check="background"/>
+    <resources>
+        <j2se version="10.0.1+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="Bezier_Curve.jar" size="10771" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="600" height="400" main-class="main" name="main"/>
+</jnlp>
+
