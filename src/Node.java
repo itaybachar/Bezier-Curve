@@ -19,7 +19,7 @@ public class Node {
     private int radius = 5;
 
     public Node(double x, double y, int nodeNum, double opacity) {
-        appController.count++;
+        AppController.count++;
         this.nodeNum = nodeNum;
 
         //Circle Setup
@@ -69,21 +69,23 @@ public class Node {
         Y = circle.centerYProperty().get();
     }
 
-    private void clipToScreen() {
+    public void clipToScreen() {
         double locX = this.circle.centerXProperty().get();
         double locY = this.circle.centerYProperty().get();
         if (locX < radius) {
             this.circle.centerXProperty().set(radius);
         }
-        if (locX > appController.WIDTH - radius) {
-            this.circle.centerXProperty().set(appController.WIDTH - radius);
+        if (locX > AppController.WIDTH -radius*2) {
+            this.circle.centerXProperty().set(AppController.WIDTH - radius);
         }
         if (locY < radius) {
             this.circle.centerYProperty().set(radius);
         }
-        if (locY > appController.HEIGHT - radius) {
-            this.circle.centerYProperty().set(appController.HEIGHT -radius);
+        if (locY > AppController.HEIGHT - radius) {
+            this.circle.centerYProperty().set(AppController.HEIGHT -radius);
         }
+        X = circle.centerXProperty().get();
+        Y = circle.centerYProperty().get();
     }
 
     public int getNodeNum(){

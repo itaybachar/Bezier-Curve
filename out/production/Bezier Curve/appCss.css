@@ -1,15 +1,15 @@
 .button.add{
-	-fx-background-image: url('https://www.iconspng.com/uploads/plus-icon/plus-icon.png');
+	-fx-background-image: url('res/plus-icon.png');
 	-fx-background-size: 32px 32px;
 	-fx-background-position: center;
 	-fx-background-repeat: no-repeat;
-	-fx-background-radius: 30;
+	-fx-background-radius: 100;
 	-fx-pref-height: 30;
 	-fx-pref-width: 30;
 }
 
 .button.minus{
-	-fx-background-image: url('https://www.iconsdb.com/icons/preview/red/minus-4-xxl.png');
+	-fx-background-image: url('res/minus-icon.png');
 	-fx-background-size: 32px 32px;
 	-fx-background-position: center;
 	-fx-background-repeat: no-repeat;

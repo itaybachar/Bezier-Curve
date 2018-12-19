@@ -122,7 +122,6 @@ public class Bezier {
 
     //Connections Updating
 
-
     private void updateIntermediateLines(LinkedList<Line> lines,int index){
         LinkedList<Line> newLines = new LinkedList();
         int addToIndex = 0;
@@ -170,12 +169,12 @@ public class Bezier {
             bezierGroup.getChildren().add(connections.get(i));
         }
 
-        for(int i = 0;i<nodes.size();i++){
-            bezierGroup.getChildren().add(nodes.get(i).getNode());
-        }
-
         for(int i = 0; i<bezierCurve.size();i++){
             bezierGroup.getChildren().add(bezierCurve.get(i));
+        }
+
+        for(int i = 0;i<nodes.size();i++){
+            bezierGroup.getChildren().add(nodes.get(i).getNode());
         }
     }
 
@@ -184,10 +183,19 @@ public class Bezier {
         for(Node n: nodes){
             n.getNode().setOnMouseDragged(e ->{
                 n.updateNode(e);
-               updateConnections();
+                updateConnections();
                 updateCurve();
             });
         }
+    }
+
+    public void clipBezier(){
+        for(Node n: nodes){
+            n.clipToScreen();
+        }
+        updateConnections();
+        updateCurve();
+        buildGroup();
     }
 
     //Adding and Removing Nodes
